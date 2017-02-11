@@ -42,6 +42,20 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tedu_Shop.Common\Tedu_Shop.Common.csproj">
+      <Project>{530dd606-1249-4012-b31b-d493aa67c824}</Project>
+      <Name>Tedu_Shop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tedu_Shop.Data\Tedu_Shop.Data.csproj">
+      <Project>{a7a96979-632c-4548-9f97-a8ee4aabd48a}</Project>
+      <Name>Tedu_Shop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tedu_Shop.Model\Tedu_Shop.Model.csproj">
+      <Project>{9933eb06-3288-40bd-a5c9-cdbf5f0ebbcb}</Project>
+      <Name>Tedu_Shop.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

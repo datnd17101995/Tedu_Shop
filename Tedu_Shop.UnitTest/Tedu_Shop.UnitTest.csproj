@@ -52,6 +52,28 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tedu_Shop.Common\Tedu_Shop.Common.csproj">
+      <Project>{530dd606-1249-4012-b31b-d493aa67c824}</Project>
+      <Name>Tedu_Shop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tedu_Shop.Data\Tedu_Shop.Data.csproj">
+      <Project>{a7a96979-632c-4548-9f97-a8ee4aabd48a}</Project>
+      <Name>Tedu_Shop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tedu_Shop.Model\Tedu_Shop.Model.csproj">
+      <Project>{9933eb06-3288-40bd-a5c9-cdbf5f0ebbcb}</Project>
+      <Name>Tedu_Shop.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tedu_Shop.Service\Tedu_Shop.Service.csproj">
+      <Project>{9fcbe1e9-50d9-45d7-ae02-ecb89554a1ac}</Project>
+      <Name>Tedu_Shop.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tedu_Shop.Web\Tedu_Shop.Web.csproj">
+      <Project>{d6f11afa-79d1-4520-845d-6818cc9f03a0}</Project>
+      <Name>Tedu_Shop.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
